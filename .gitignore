@@ -4,6 +4,7 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+backend/venv/
 
 # Environment variables
 .env
@@ -11,6 +12,7 @@ __pycache__/
 .env.development.local
 .env.test.local
 .env.production.local
+backend/.env
 
 # Build outputs
 build/
@@ -35,6 +37,7 @@ logs/
 *.faiss
 *.index
 chroma_db/
+backend/data/
 
 # Model files (large)
 models/*.bin
@@ -44,3 +47,7 @@ models/pytorch_model.bin
 # Temporary files
 tmp/
 temp/
+
+# Package lock files (optional)
+package-lock.json
+yarn.lock
